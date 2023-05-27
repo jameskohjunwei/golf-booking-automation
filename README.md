@@ -42,8 +42,10 @@ Our mission is to leverage the Selenium package in Python to develop a powerful 
 1. `fill_form(name, member, email, phone, course, session)`: This function is designed to handle the various permutations of the ballot form based on the provided arguments. It offers easy customization, allowing for booking on behalf of specific members, selecting between two courses, and choosing preferred session times (AM or PM).
 
 2. `send_telegram(stored_messages)`: This function facilitates the sending of messages via Telegram using pre-stored messages as input. The format of the message is as follows:
+![image](https://github.com/jameskohjunwei/golf-booking-automation/assets/60392496/6307cbc5-e5bc-4a17-842a-df6f345dc73a)
 
 3. `send_telegram_error(e)`: In the event of any exceptions during the automation process, this function takes charge of sending error messages through Telegram. A sample error message is as follows:
+![image](https://github.com/jameskohjunwei/golf-booking-automation/assets/60392496/509c8a8a-2cfc-40f0-8e82-ed4bc0c74b80)
 
 Due to complications with email, such as messages being marked as spam, I have deprecated the following email functions:
 
@@ -55,7 +57,10 @@ Due to complications with email, such as messages being marked as spam, I have d
 
 1. Hosting the scripts on a server: I had to decide between hosting it on a cloud solution like Linode, but ended up building my own home server instead because I wanted to learn the ins and outs of self-hosting. So I installed proxmox bare metal on a laptop that was bound for the bin. Spun up a Ubuntu server VM and installed all the dependencies required to run my scripts.
 2. Dockerise remote Selenium Chrome solution: Part of the conundrum that I had to tackle was "how do I get a chrome session running on my remote PC for the script to do its tasks?". After much research, I found Selenium Grid! I self-hosted it on my server on the same VM using Docker and Portainer and pointed my script to that remote chrome session whenever the cronjob triggers... speaking of cronjob...
-2. Cronjobs: The cron syntax took quite a while to figure out but once it was done it worked like clockwork!
+![image](https://github.com/jameskohjunwei/golf-booking-automation/assets/60392496/7d49ab4a-c123-4f10-a506-ddb12c6165b2)
+
+4. Cronjobs: The cron syntax took quite a while to figure out but once it was done it worked like clockwork!
+![image](https://github.com/jameskohjunwei/golf-booking-automation/assets/60392496/39940ca1-6a8d-4a6b-8164-9e912c5dda0b)
 
 ### Comments on Functional Coding Style
 I chose to implement it in functional coding style as it didn't require additional complexity. Additionally, when I created this script, I was relatively new to Python and coding in general.

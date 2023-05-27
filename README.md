@@ -8,11 +8,11 @@ To ensure a smooth process and avoid issues, follow the steps below:
 
 The cumulative time for these tasks increases significantly when done for multiple members. Automating these tasks enhances scalability and saves time.
 
-### More about Task #1
+## More about Task #1
 
 Completing the form for multiple members takes around 5 minutes per member. The process includes accessing the site, clicking buttons to access the form, and filling out fields with text input and radio buttons.
 
-### More about Task #2
+## More about Task #2
 
 Checking the game results takes about 2 minutes per member. However, it becomes cumbersome as it involves manually reviewing a 50-row PDF. Details like tee time, course name, day, and date need to be copied and pasted into a message for coordination.
 

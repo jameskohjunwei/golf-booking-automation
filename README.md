@@ -1,7 +1,14 @@
+# TL;DR
+- The process of completing a golf ballot form and checking game results manually is time-consuming and prone to errors.
+- Automating these tasks using Selenium in Python can save time and enhance scalability.
+- The automation script includes functions to fill the form and send messages via Telegram.
+- Hosting the script on a server, Dockerizing Selenium, and using cronjobs are part of the solution.
+- Challenges include website updates and code resiliency, which require ongoing maintenance.
+- Overall, the project has provided valuable learning experiences and sparked enthusiasm for similar endeavors.
+
 # High-level Overview
 
-To ensure a smooth process and avoid any issues, the following steps need to be followed:
-
+Here's a quick description of the manual tasks that need to be completed in order for us to play some golf:
 1. Task #1 Complete the ballot form between 8am and 3pm on Fridays. This involves accessing the website, clicking three buttons, and filling out 8-10 fields with text input and radio buttons.
 
 2. Task #2 Check the game results on Friday night at 7pm to determine if you have been selected. If you wish to cancel the games, do it by Monday for Saturday games and by Tuesday for Sunday games. This allows for two days over the weekend to coordinate with buddies and confirm four players for each game.

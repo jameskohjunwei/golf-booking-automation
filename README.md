@@ -16,7 +16,7 @@ Completing the form for multiple members takes around 5 minutes per member. The 
 
 Checking the game results takes about 2 minutes per member. However, it becomes cumbersome as it involves manually reviewing a 50-row PDF. Details like tee time, course name, day, and date need to be copied and pasted into a message for coordination.
 
-### Pain Points
+# Pain Points
 
 The process has several challenges and pain points:
 

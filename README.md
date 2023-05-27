@@ -8,7 +8,7 @@ To ensure a smooth process and avoid issues, follow the steps below:
 
 The cumulative time for these tasks increases significantly when done for multiple members. Automating these tasks enhances scalability and saves time.
 
-**More about Task #1**
+### **More about Task #1**
 
 Completing the form for multiple members takes around 5 minutes per member. The process includes accessing the site, clicking buttons to access the form, and filling out fields with text input and radio buttons.
 

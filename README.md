@@ -8,15 +8,15 @@ To ensure a smooth process and avoid issues, follow the steps below:
 
 The cumulative time for these tasks increases significantly when done for multiple members. Automating these tasks enhances scalability and saves time.
 
-***More about Task #1
+**More about Task #1
 
 Completing the form for multiple members takes around 5 minutes per member. The process includes accessing the site, clicking buttons to access the form, and filling out fields with text input and radio buttons.
 
-***More about Task #2
+**More about Task #2
 
 Checking the game results takes about 2 minutes per member. However, it becomes cumbersome as it involves manually reviewing a 50-row PDF. Details like tee time, course name, day, and date need to be copied and pasted into a message for coordination.
 
-***Pain Points
+**Pain Points
 
 The process has several challenges and pain points:
 
@@ -26,7 +26,7 @@ The process has several challenges and pain points:
 
 # My Solution
 
-## Mission Statement / Goal
+**Mission Statement / Goal**
 
 Our mission is to leverage Python's Selenium package to develop an automation script that handles tasks #1 and #2 efficiently, eliminating manual intervention.
 

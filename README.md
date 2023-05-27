@@ -30,26 +30,28 @@ The process has several challenges and pain points:
 
 Our mission is to leverage Python's Selenium package to develop an automation script that handles tasks #1 and #2 efficiently, eliminating manual intervention.
 
-#### Functions Implemented
+## Functions Implemented
 
 1. `fill_form(name, member, email, phone, course, session)`: Handles various permutations of the ballot form based on the provided arguments, allowing customization.
 2. `send_telegram(stored_messages)`: Facilitates sending messages via Telegram using pre-stored messages.
 3. `send_telegram_error(e)`: Sends error messages through Telegram in case of exceptions during the automation process.
 
-Email functions have been deprecated due to complications such as messages being marked as spam.
+***Due to complications with email, such as messages being marked as spam, I have deprecated the following email functions:
+4. `send_error_email(e)`: This function was previously responsible for sending error emails in case of exceptions encountered during the automation process.
+5. `send_success_email(stored_messages)`: This function is no longer in use since transitioning to Telegram for messaging purposes.
 
-#### Eliminating Manual Intervention
+## Eliminating Manual Intervention
 
 To eliminate manual intervention, the following steps were taken:
 
 1. Hosting the scripts on a server: A home server was built using proxmox bare metal on a laptop. An Ubuntu server VM was created with all the required dependencies.
 2. Dockerizing remote Selenium Chrome solution: Selenium grid was self-hosted on the server using Docker and Portainer. The script points to the remote Chrome session triggered by cronjobs.
 
-### Comments on Functional Coding Style
+## Comments on Functional Coding Style
 
 Functional coding style was chosen for simplicity, considering the project's requirements and the author's experience level with Python and coding.
 
-### Code Resiliency
+## Code Resiliency
 
 To ensure code resiliency, multiple fail-safe code blocks were incorporated. When the club removes certain elements from the ballot form, the code adapts using try-except-else functions and conditional statements.
 

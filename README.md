@@ -42,6 +42,7 @@ Our mission is to leverage the Selenium package in Python to develop a powerful 
 1. `fill_form(name, member, email, phone, course, session)`: This function is designed to handle the various permutations of the ballot form based on the provided arguments. It offers easy customization, allowing for booking on behalf of specific members, selecting between two courses, and choosing preferred session times (AM or PM).
 
 2. `send_telegram(stored_messages)`: This function facilitates the sending of messages via Telegram using pre-stored messages as input. The format of the message is as follows:
+
 ![image](https://github.com/jameskohjunwei/golf-booking-automation/assets/60392496/6307cbc5-e5bc-4a17-842a-df6f345dc73a)
 
 3. `send_telegram_error(e)`: In the event of any exceptions during the automation process, this function takes charge of sending error messages through Telegram. A sample error message is as follows:

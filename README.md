@@ -6,7 +6,7 @@
 - Challenges include website updates and code resiliency, which require ongoing maintenance.
 - Overall, the project has provided valuable learning experiences and sparked enthusiasm for similar endeavors.
 
-# High-level Overview
+# Overview
 
 Here's a quick description of the manual tasks that need to be completed in order for us to play some golf:
 1. Task #1 Complete the ballot form between 8am and 3pm on Fridays. This involves accessing the website, clicking three buttons, and filling out 8-10 fields with text input and radio buttons.
